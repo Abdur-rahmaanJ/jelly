@@ -5,6 +5,9 @@
 	color:white;
 
 }
+a{
+	text-decoration: none;
+}
 hr.Stats{
 	margin-bottom:10px;
 	margin-top: 10px;
@@ -40,15 +43,16 @@ body{
 	min-height: 100px;
 	height: 100%;
 	padding: 10px;
-	background-color: #060910;
+	background-color: #060910;\
 }
 #Side{
 	display: inline-block;
 	min-width: 200px;
 	border:1px solid black;
-	width: 32%;
+	width: 30%;
 	min-height: 100px;
 	height: 100%;
+	float: right;
 }
 #player-stats{
 	padding: 10px;
@@ -254,6 +258,105 @@ body{
 #ads{
 	min-height: 500px;
 }
+#mail{
+	color: #4d749d;
+	text-align: center;
+	font-size: 30px;
+}
+/*
+tabs
+*/
+.tabs {
+  position: relative;   
+  min-height: 200px;
+  clear: both;
+  margin: 25px 25px;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  background: #2d2b2e; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  margin-left: -1px; 
+  position: relative;
+  left: 1px; 
+  color:white;
+}
+.tab [type=radio] {
+  display: none;   
+}
+.content {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background: #232429;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc; 
+  color:black;
+}
+[type=radio]:checked ~ label {
+  background: #232429;
+  border-bottom: 1px solid #232429;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+.server-info-title > div{
+	background-color: #36272a;
+	padding:3px;
+	width: 75px;
+	color:#2984a1;
+	text-align: center;
+	font-size: 15px;
+	margin: 0;
+}
+.server-info-data > div{
+	background-color: #36272a;
+	padding:3px;
+	width: 75px;
+	background-color: #5b515a;
+	color:white;
+	text-align: center;
+	margin: 0;
+}
+.server-info-data_first > div{
+	background-color: #e27232;
+	padding:3px;
+	width: 75px;
+	background-color: #5b515a;
+	color:white;
+	text-align: center;
+	margin: 0;
+}
+#youtube{
+	text-align: center;
+}
+#youtube-icon{
+	height:80px;
+	width: 150px;
+
+}
+#youtube-icon > img{
+	height:100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .b-w{
 	border:1px solid white;
 }
