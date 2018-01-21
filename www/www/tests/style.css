@@ -1,0 +1,270 @@
+*{
+
+	padding: 0px;
+	margin: 0px;
+	color:white;
+
+}
+hr.Stats{
+	margin-bottom:10px;
+	margin-top: 10px;
+	border: 1px solid #b1285e;
+}
+hr.Play{
+	margin-bottom:10px;
+	margin-top: 10px;
+	border: 1px solid #1b2029;
+}
+body{
+	display: inline-block;
+	border:1px solid black;
+	width: 100%;
+	height: 100%;
+	background-color: #050006;
+}
+#Stats{
+	display: inline-block;
+	border:1px solid black;
+	min-width: 200px;
+	width: 32%;
+	min-height: 100px;
+	height: 100%;
+	padding:10px;
+	float: left;
+}
+#Play{
+	display: inline-block;
+	min-width: 200px;
+	border:1px solid black;
+	width: 33%;
+	min-height: 100px;
+	height: 100%;
+	padding: 10px;
+	background-color: #060910;
+}
+#Side{
+	display: inline-block;
+	min-width: 200px;
+	border:1px solid black;
+	width: 32%;
+	min-height: 100px;
+	height: 100%;
+}
+#player-stats{
+	padding: 10px;
+}
+#profile-icon{
+	border-radius: 10px;
+	width: 100px;
+	height: 100px;
+	border-width: 5px;
+	border-color: white;
+	border-style: solid;
+}
+#user-info{
+	text-align: center;
+	align-items: center;
+}
+
+#profile-icon > img {
+	width:100%;
+	height:100%;
+}
+
+#coins{
+	width:50%;
+	height:50px;
+	border-radius: 10px;
+	border-width: 2px;
+}
+#coins > div{
+	text-align: center;
+	width:30%;
+	height: 100%;
+	line-height: 50px;
+}
+#coins-add{
+	background-color: #50df00;
+	float:right;
+	border-top-right-radius: 9px;
+	border-bottom-right-radius: 9px;
+}
+#coins-pic{
+
+}
+
+#experience{
+	padding-top: 10px;
+	width:100%;
+}
+#experience > progress{
+	width:75%;
+	height:30px;
+	border-radius: 5px;
+}
+
+
+#experience > progress::-webkit-progress-value {
+  background: #c8e7fb;
+}
+
+#experience > progress::-moz-progress-bar {
+  background: #c8e7fb;
+}
+
+#rank-pic{
+	width:50px;
+	height:50px;
+	margin-left: 10%;
+
+}
+#rank-pic > img{
+	width:100%;
+	height:100%;
+}
+#social-media{
+	margin-top: 10px;
+	text-align: center;
+}
+#login{
+	width:50%;
+}
+#like{
+	width:20%;
+}
+#share{
+	width:20%;
+}
+#social-media > div{
+	background-color: #4669ba;
+	padding:5px;
+	border-radius: 5px;
+}
+#buy-skin{
+	width:125px;
+	height: 125px;
+	border-radius: 50%;
+	border:3px solid white;
+	color: white;
+	text-align: center;
+	line-height: 125px;
+}
+#boost-1{
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	border:3px solid white;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+#boost-2{
+	width:70px;
+	height: 70px;
+	border-radius: 50%;
+	border:3px solid white;
+	color: white;
+	text-align: center;
+	line-height: 70px;
+}
+#buy-hat{
+	background-color: #50023c;
+	padding:10px;
+	border-radius: 5px;
+}
+#buy-coins{
+	background-color: #a20b4e;
+	padding:10px;
+	border-radius: 5px;
+}
+#half-shop-r{
+	width: 45%;min-height: 50px; 
+	padding-left: 10px;
+	text-align: center;
+}
+#half-shop-l{
+	width: 45%;
+	min-height: 50px;
+	border-right: 2px solid white;
+	padding-left: 10px;
+	text-align: center;
+}
+#hat-coins{
+	text-align: center;
+	margin-top: 20px;
+}
+#producer{
+	text-align: center;
+}
+#producer > div{
+	margin-bottom: 5px;
+}
+#prod-name{
+	background-color: #1e0427;
+	padding: 5px;
+	margin-right: 25%;
+	margin-left: 25%;
+	border:1px solid white;
+}
+#prod-like{
+	background-color: #a90750;
+	padding:5px;
+	margin-right: 25%;
+	margin-left: 25%;
+}
+#player-name{
+	color: black;
+	padding:10px;
+	background-color: #9c9d9f;
+	width:50%;
+	border-radius: 5px;
+	outline:none;
+	border:none;
+}
+#server-name{
+	background-color: #9c9d9f;
+	padding:10px;
+	color:black;
+	width:30%;
+
+}
+#highscores{
+	background-color: #dc9e39;
+	padding:10px;
+	width: 30%;
+}
+#skin-gallery{
+	background-color: #57b1d3;
+	padding:10px;
+	width:50%;
+}
+#play{
+	background-color: #3273ad;
+	padding:10px;
+	width:70%;
+}
+#settings{
+	background-color: #07ad0f;
+	padding:10px;
+	width:10%;
+}
+#play-instructions{
+	text-align: center;
+}
+#ads{
+	min-height: 500px;
+}
+.b-w{
+	border:1px solid white;
+}
+.d-ib{
+	display: inline-block;
+
+}
+.b-r{
+	border-radius: 5px;
+}
+.sep{
+	margin-bottom: 10px;
+	text-align: center;
+}
